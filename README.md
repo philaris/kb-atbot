@@ -3,7 +3,6 @@
 This is a bot that receives requests to send a message later.
 It has to run as the user who is to send the message and it only
 listens to messages of that user.
-
 It is based on [debatebot](https://github.com/keybase/debatebot).
 
 ### To run it, or your edits of it:
@@ -22,6 +21,14 @@ When using a paperkey, you do not have to rely on a special version of
 [keybase-bot](https://github.com/philaris/keybase-bot).
 
 Then, the bot is ready to receive your messages.
+
+### Docker image
+
+If you have docker you can start the image at https://hub.docker.com/r/philaris/kb-atbot as follows:
+```
+ docker run -i -t -e KB_USERNAME="myuser" -e KB_PAPERKEY="foo ..." --name atbot philaris/kb-atbot
+```
+
 
 ### Examples
 
