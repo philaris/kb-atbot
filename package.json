@@ -20,8 +20,8 @@
     "test": "jest --runInBand"
   },
   "devDependencies": {
-    "@types/jest": "25.1.4",
-    "@types/node": "13.7.0",
+    "@types/jest": "25.2.1",
+    "@types/node": "13.13.4",
     "@typescript-eslint/eslint-plugin": "2.19.2",
     "@typescript-eslint/parser": "2.19.2",
     "eslint": "6.8.0",
@@ -36,11 +36,11 @@
     "jest": "25.1.0",
     "lint-staged": "10.0.7",
     "prettier": "1.19.1",
-    "ts-jest": "25.2.1"
+    "ts-jest": "25.4.0"
   },
   "dependencies": {
     "keybase-bot": "3.6.1",
-    "ts-node": "8.6.2",
+    "ts-node": "8.10.1",
     "typescript": "3.8.3"
   }
 }
