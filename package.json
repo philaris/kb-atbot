@@ -1,6 +1,6 @@
 {
   "name": "kb-atbot",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "repository": "git@github.com:philaris/kb-atbot.git",
   "author": "Panagiotis Cheilaris <philaris@gmail.com>",
   "license": "MIT",
@@ -41,6 +41,6 @@
   "dependencies": {
     "keybase-bot": "3.6.1",
     "ts-node": "8.10.1",
-    "typescript": "3.8.3"
+    "typescript": "3.9.6"
   }
 }
